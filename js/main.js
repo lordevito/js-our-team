@@ -53,4 +53,12 @@ const staff = [{
         img: "barbara-ramos-graphic-designer.jpg",
 
     },
-]
+];
+
+//Creo un ciclo per stampare in console il nome, ruolo e la stringa della foto di ognuno dei componenti dello staff
+
+for (let i = 0; i < staff.length; i++) {
+    console.log(staff[i].nome);
+    console.log(staff[i].ruolo);
+    console.log(staff[i].img);
+}
